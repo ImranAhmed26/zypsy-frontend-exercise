@@ -20,8 +20,6 @@ A Next.js application that displays blog posts organized by categories. Users ca
   - Zustand (Client State)
 - **Styling:** Tailwind CSS
 
-## Getting Started
-
 ### Prerequisites
 
 - Node.js 18 or higher
