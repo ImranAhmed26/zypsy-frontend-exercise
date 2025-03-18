@@ -1,31 +1,33 @@
-# Blog Post Categories
+# 📝 Blog Post Categories
 
 A Next.js application that displays blog posts organized by categories. Users can favorite categories and filter posts based on their selections.
 
-## Features
+## ✨ Features
 
-- View and browse posts by categories
-- Mark/unmark categories as favorites
-- Filter posts by favorite categories
-- Persistent local storage for user preferences
-- Fully responsive design for all devices
-- Real-time updates with TanStack Query
+- 📚 View and browse posts by categories
+- ⭐️ Mark/unmark categories as favorites
+- 🔍 Filter posts by favorite categories
+- 💾 Persistent local storage for user preferences
+- 📱 Fully responsive design for all devices
+- 🔄 Real-time updates with TanStack Query
 
-## Tech Stack
+## 🛠 Tech Stack
 
-- **Framework:** Next.js 15
-- **Language:** TypeScript
-- **State Management:** 
-  - TanStack Query (Server State)
-  - Zustand (Client State)
-- **Styling:** Tailwind CSS
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-593D88?style=for-the-badge&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Prerequisites
+## 🚀 Getting Started
 
-- Node.js 18 or higher
-- npm or yarn package manager
+### 📋 Prerequisites
 
-### Installation
+![Node.js](https://img.shields.io/badge/Node.js-18_or_higher-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
+
+### ⚙️ Installation
 
 1. Install dependencies:
 ```bash
