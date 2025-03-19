@@ -19,7 +19,7 @@ export default function Home() {
         <div className='flex flex-col md:flex-row gap-6 md:gap-10'>
           <div className='w-full md:w-64 flex-shrink-0'>
             {isLoading ? (
-              <div>Loading categories...</div>
+              <div>{TEXTS.MESSAGES.LOADING_CATEGORIES}</div>
             ) : (
               <CategoryList categories={categories} />
             )}

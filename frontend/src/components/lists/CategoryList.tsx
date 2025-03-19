@@ -1,11 +1,11 @@
-import { StarIcon } from '@heroicons/react/24/outline';
-import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid';
+
 import { apiClient } from '@/lib/api';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { useStore } from '@/store';
 import { Category } from '@/types';
 import { CategoryFilter } from '../molecules/CategoryFilter';
 import { CategoryItems } from '../molecules/CategoryItems';
+import { TEXTS } from '@/constants/texts';
 
 interface CategoryListProps {
   categories: Category[];
@@ -41,7 +41,9 @@ export const CategoryList = ({ categories = [] }: CategoryListProps) => {
   return (
     <div className='w-80 bg-white border-r border-gray-200 h-screen fixed left-0 top-0 overflow-y-auto'>
       <div className='bg-[#192e04] p-5'>
-        <h1 className='text-base font-medium text-center text-white'>Posts</h1>
+        <h1 className='text-base font-medium text-center text-white'>
+          {TEXTS.HEADERS.POSTS}
+        </h1>
       </div>
 
       <div className='p-6'>

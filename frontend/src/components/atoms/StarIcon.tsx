@@ -11,7 +11,9 @@ export const StarIcon = ({ isFavorite, isSelected, className = '' }: StarIconPro
       className={clsx(
         'h-5 w-5',
         !isSelected
-          ? 'text-gray-300'
+          ? isFavorite 
+            ? 'text-gray-300' 
+            : 'text-gray-300 stroke-gray-300'
           : isFavorite 
             ? 'text-[#192e04]'
             : 'text-white stroke-[#192e04] stroke-2',

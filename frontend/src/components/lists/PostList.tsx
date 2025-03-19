@@ -38,7 +38,7 @@ export const PostList = () => {
     <div className='space-y-4 pr-4 p-6 border border-gray-200 rounded overflow-hidden'>
       <div className='space-y-4'>
         <div className='text-gray-600 text-sm'>
-          Found {totalPosts} posts of "{selectedCategory?.name}"
+          Found {totalPosts} posts of &ldquo;{selectedCategory?.name}&rdquo;
         </div>
         <hr className='border-gray-200 -mx-6' />
       </div>

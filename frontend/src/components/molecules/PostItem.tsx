@@ -17,7 +17,7 @@ export const PostItem = ({ post, allCategories, selectedCategoryId }: PostItemPr
             <span
               key={categoryId}
               className={clsx(
-                'w-fit inline-flex items-center px-4 py-1.5 text-sm rounded-sm border border-[#192e04]',
+                'w-fit inline-flex gap-2 items-center px-4 py-1.5 text-sm rounded-sm border border-[#192e04]',
                 selectedCategoryId === categoryId
                   ? 'hover:bg-gray-50'
                   : 'bg-[#192e04] text-white'
@@ -27,7 +27,6 @@ export const PostItem = ({ post, allCategories, selectedCategoryId }: PostItemPr
               <StarIcon 
                 isFavorite={category.favorite}
                 isSelected={selectedCategoryId === categoryId}
-                className="ml-2"
               />
             </span>
           ) : null;

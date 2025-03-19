@@ -1,5 +1,6 @@
 import { CategoryItemsProps } from '@/types';
 import { StarIcon } from '@/components/atoms/StarIcon';
+import { TEXTS } from '@/constants/texts';
 import clsx from 'clsx';
 
 export const CategoryItems = ({
@@ -14,8 +15,8 @@ export const CategoryItems = ({
       {!categories?.length ? (
         <div className='text-gray-500 text-center py-4 text-sm'>
           {showFavoritesOnly
-            ? 'No favorite categories'
-            : 'No categories available'}
+            ? TEXTS.MESSAGES.NO_FAVORITE
+            : TEXTS.MESSAGES.NO_CATEGORIES}
         </div>
       ) : (
         categories.map((category) => (
