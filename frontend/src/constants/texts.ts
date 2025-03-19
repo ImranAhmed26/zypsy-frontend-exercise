@@ -4,6 +4,7 @@ export const TEXTS = {
   },
   CATEGORIES: {
     FAVORITES: 'Favorites Categories',
+    ALL: 'All Categories',
   },
   MESSAGES: {
     LOADING_POSTS: 'Loading posts...',

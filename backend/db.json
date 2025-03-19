@@ -3,7 +3,7 @@
     {
       "id": "fa572550-ee37-4c33-9b91-8a69f902175c",
       "name": "Cooking",
-      "favorite": true
+      "favorite": false
     },
     {
       "id": "fb572550-ee37-4c33-9b91-8a69f902175c",
@@ -13,12 +13,12 @@
     {
       "id": "0e6f3713-bbf9-4a56-a653-8743960176b7",
       "name": "Product Reviews",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "fdffc4e4-0ff8-4e76-b522-1eeb43f3587c",
       "name": "DIY Projects",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "d5c9d5c9-5a5c-4f5f-9a9a-7c8a8c7c8a8c",
